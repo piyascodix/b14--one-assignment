@@ -93,3 +93,56 @@ header {
     padding: 15px 35px;
     font-size: 28px;
 }
+/* meet speakers */
+.container{
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.speakers{
+    padding: 70px 0;
+}
+
+.speaker-content{
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.speaker-content h2{
+    font-size: 60px;
+    font-weight: 700;
+    margin-bottom: 15px;
+    color: black;
+}
+.speaker-card-container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 30px;
+}
+
+.speaker-card{
+    background: #fff;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 8px 20px rgba(0,0,0,.1);
+}
+
+.speaker-card img{
+    width: 100%;
+    display: block;
+}
+
+.speaker-card h4{
+    color: #2563EB;
+    margin: 20px 20px 10px;
+    font-size: 14px;
+}
+
+.speaker-card h3{
+    margin: 0 20px;
+    font-size: 28px;
+}
+
+.speaker-card p{
+    margin: 15px 20px 25px;
+    color: #666;
