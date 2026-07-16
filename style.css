@@ -61,3 +61,35 @@ nav {
     color: white;
     
 }
+/* banner */
+header {
+    background-image:linear-gradient(rgba(0,0,0,0.20), rgba(0,0,0,0.20)),
+     url('./image/B14-A01-DevConf-2026/assets/banner.jpg');
+    height: 90vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+.header-content{
+    max-width: 850px;
+    color: white;
+    text-align: center;
+}
+.header-content h1{
+    color: white;
+    font-size: 72px;
+    font-weight: 800;
+    line-height: 1.1;
+    margin-bottom: 25px;
+}
+.header-content h1 span{
+    font-style: italic;
+}
+.header-content .btn {
+    margin-top: 60%;
+    padding: 15px 35px;
+    font-size: 28px;
+}
