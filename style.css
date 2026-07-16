@@ -319,3 +319,30 @@ header {
 .footer-logo img{
     width: 100px;
 }
+/* Footer */
+
+.footer{
+    background: #0F172A;
+    padding: 30px 8%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer p{
+    color: #94A3B8;
+}
+
+.footer-link{
+    display: flex;
+    gap: 25px;
+}
+
+.footer-link a{
+    color: #94A3B8;
+    text-decoration: none;
+}
+
+.footer-link a:hover{
+    color: white;
+}
