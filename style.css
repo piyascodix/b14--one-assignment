@@ -147,3 +147,166 @@ header {
     margin: 15px 20px 25px;
     color: #666;
 }
+/* Pricing Section */
+
+.pricing{
+    padding: 100px 0;
+}
+
+.pricing-content{
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.pricing-content h2{
+    font-size: 52px;
+    color: #0F172A;
+    margin-bottom: 15px;
+}
+
+.pricing-content p{
+    color: #6B7280;
+    font-size: 18px;
+}
+
+.pricing-card-container{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.pricing-card{
+    flex: 1;
+    border: 1px solid #E5E7EB;
+    border-radius: 12px;
+    padding: 30px;
+    background: white;
+}
+
+.pricing-card h5{
+    color: #6B7280;
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+
+.pricing-card h3{
+    font-size: 52px;
+    color: black;
+}
+
+.pricing-card span{
+    color: #6B7280;
+    font-size: 15px;
+}
+
+.pricing-card ul{
+    margin-top: 25px;
+}
+
+.pricing-card ul li{
+    margin-bottom: 16px;
+    color: black;
+    font-size: 15px;
+}
+
+.pricing-card .btn{
+    display: block;
+    text-align: center;
+    margin-top: 30px;
+}
+
+/*  Card 2 */
+
+
+.pricing-card2{
+    flex: 1;
+    background: #0F172A;
+    color: white;
+    border-radius: 12px;
+}
+.pricing-card2 h5{
+    color: #2563EB;
+}
+.pricing-card2 h3{
+    color: white;
+}
+.pricing-card2 span{
+    color: white;
+}
+.pricing-card2 ul li{
+    color: white;
+}
+.commonbtn{
+     background-color:white;
+    color: #2563EB;
+    text-decoration: none;
+    padding: 9px 30px;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: 600;
+    border-color: #2563EB;
+    
+    
+}
+.commonbtn2{
+    background-color:#2563EB;
+    color: white;
+    text-decoration: none;
+    padding: 9px 30px;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: 600;
+    border: none;
+}
+.commonbtn2:hover{
+    background-color:white;
+    color:blue ;
+}
+.pricing-card .commonbtn{
+     display: block;
+    width: 90%;
+    margin: 30px auto 0;
+    text-align: center;
+}
+.pricing-card .commonbtn2{
+     display: block;
+    width: 90%;
+    margin: 30px auto 0;
+    text-align: center;
+}
+/* Newsletter */
+
+.newsletter{
+    width: 70%;
+    margin: 100px auto 0;
+    background: #0F172A;
+    border-radius: 16px;
+    padding: 60px;
+    text-align: center;
+}
+
+.newsletter h2{
+    color: white;
+    font-size: 42px;
+    margin-bottom: 15px;
+}
+
+.newsletter p{
+    color: #CBD5E1;
+    margin-bottom: 35px;
+}
+
+.newsletter form{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.newsletter input{
+    width: 350px;
+    padding: 15px;
+    border: none;
+    border-radius: 8px;
+    outline: none;
+    font-size: 16px;
+}
