@@ -310,3 +310,12 @@ header {
     outline: none;
     font-size: 16px;
 }
+/* Footer Logo */
+
+.footer-logo{
+    margin: 70px 40px 30px;
+    display: flex-start;
+}
+.footer-logo img{
+    width: 100px;
+}
